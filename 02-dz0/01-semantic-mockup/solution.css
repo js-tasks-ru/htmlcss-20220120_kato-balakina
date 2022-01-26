@@ -1,0 +1,52 @@
+.page {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.page__header {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.page__nav {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.page__nav a {
+    color: white;
+}
+
+.page__nav a + a {
+    margin-left: 15px;
+}
+
+.page__content {
+    background-color: green;
+}
+
+.page__article {
+    background-color: blue;
+}
+
+.page__article:not(last-child) {
+    margin-bottom: 10px;
+}
+
+.page__footer {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+}
+
+.page__content, .page__article, .page__footer, .page__nav {
+    padding: 20px;
+}
