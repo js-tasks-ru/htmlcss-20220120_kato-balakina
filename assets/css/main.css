@@ -17,8 +17,21 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --border-color: var(--grey-3);
+    --text-color: var(--grey-4);
+
+    --primary-dark: #2342C0; /* FIXME: color-mod */
+    --secondary-dark: #5028C6; /* FIXME: color-mod */
+
+    --border-color-dark: #212429;  /* FIXME: color-mod */
+
 }
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+.gallery {
+    padding: 30px;
 }
