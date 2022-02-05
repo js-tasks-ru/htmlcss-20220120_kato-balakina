@@ -19,7 +19,7 @@
     --secondary: var(--purple);
 
     --border-color: var(--grey-3);
-    --text-color: var(--grey-4);
+    --text-color: var(--black);
 
     --primary-dark: #2342C0; /* FIXME: color-mod */
     --secondary-dark: #5028C6; /* FIXME: color-mod */
@@ -28,7 +28,7 @@
 
 }
 
-* {
+html, body {
     font-family: 'Roboto', sans-serif;
 }
 

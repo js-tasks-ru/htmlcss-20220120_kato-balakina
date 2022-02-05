@@ -1,12 +1,14 @@
 .button {
-    width: 189px;
-    height: 48px;
-    border-radius: 8px;
-    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+    height: 48px;
+    border-radius: 8px;
+    cursor: pointer;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+    padding: 0 16px;
+    white-space: nowrap;
 }
 
 .button_primary {
@@ -29,7 +31,7 @@
 
 .button_alternate {
     background-color: var(--white);
-    color: var(--text-color);
+    color: var(--grey-4);
     border: 1px solid var(--border-color);
 }
 
