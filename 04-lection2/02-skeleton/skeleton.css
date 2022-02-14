@@ -1,0 +1,45 @@
+.skeleton {
+    padding: 24px 40px 32px 24px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: var(--white);
+}
+
+.skeleton__row {
+    display: flex;
+    gap: 16px;
+}
+
+.skeleton__circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: var(--grey-2);
+}
+
+.skeleton__column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 0 0 auto;
+}
+
+.skeleton__column_stretch {
+    flex: 1 0 auto;
+}
+
+.skeleton__line {
+    height: 20px;
+    background: var(--grey-gradient);
+}
+
+.skeleton__line_third {
+    width: 33%
+}
+
+.skeleton__line_half {
+    width: 50%;
+}
